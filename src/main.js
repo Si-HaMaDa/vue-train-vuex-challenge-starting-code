@@ -4,7 +4,7 @@ import router from './router.js';
 import App from './App.vue';
 import BaseBadge from './components/ui/BaseBadge.vue';
 
-const app = createApp(App)
+const app = createApp(App);
 
 app.use(router);
 
